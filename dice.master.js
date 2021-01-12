@@ -575,7 +575,7 @@ class Dice extends GameObject {
 		this.name = "die";
 		this.value = null; //1 through 6 + 5 (six or wurm counts as 5)
 		this.img = new Image();
-		this.img.src = "dice (1) (1).png";
+		this.img.src = "dice(1).png";
 		this.img_shadow = new Image();
 		this.img_shadow.src = "dice_shadow.png";
 
