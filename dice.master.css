@@ -1,0 +1,27 @@
+
+body {
+	line-height: 1.5em;
+}
+
+canvas {
+	border:5px solid grey;
+	margin: 0 auto;
+}
+
+#dice {
+
+}
+
+#vecx {
+	color: red;
+}
+
+#vecy {
+	color: blue;
+}
+
+p {
+	text-align: center;
+	font-size: small;
+	color: grey;
+}

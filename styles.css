@@ -1,0 +1,74 @@
+.header {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+/* Change background on mouse-over */
+#navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+/* Page content */
+.content {
+  padding: 16px;
+  margin: 5px 50px 15px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+/*
+#dice{
+  float:left;
+  width:32px;
+  background:#F5F5F5;
+  border:#999 1px solid;
+  padding:10px;
+  font-size:24px;
+  text-align:center;
+  margin:5px;
+}
+*/
