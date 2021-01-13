@@ -166,7 +166,7 @@ var Game = {
 		//this.timer = 1000/this.FPS;
 
 		img0 = new Image();
-		img0.src = "dice.png";
+		img0.src = "images/dice.png";
 		//img_shadow = new Image();
 		//img_shadow.src = "dice_shadow.png";
 
@@ -174,10 +174,10 @@ var Game = {
 		img_tile_2 = new Image();
 		img_tile_3 = new Image();
 		img_tile_4 = new Image();
-		img_tile_1.src = "1wurms.png";
-		img_tile_2.src = "2wurms.png";
-		img_tile_3.src = "3wurms.png";
-		img_tile_4.src = "4wurms.png";
+		img_tile_1.src = "images/1wurms.png";
+		img_tile_2.src = "images/2wurms.png";
+		img_tile_3.src = "images/3wurms.png";
+		img_tile_4.src = "images/4wurms.png";
 
 		//border = 20;
 		vecPivot = null;
@@ -575,9 +575,9 @@ class Dice extends GameObject {
 		this.name = "die";
 		this.value = null; //1 through 6 + 5 (six or wurm counts as 5)
 		this.img = new Image();
-		this.img.src = "dice(1).png";
+		this.img.src = "images/dice(1).png";
 		this.img_shadow = new Image();
-		this.img_shadow.src = "dice_shadow.png";
+		this.img_shadow.src = "images/dice_shadow.png";
 
 		this.x = x;	// x position on the screen at init
 		this.y = y;	// y position on the screen at init
