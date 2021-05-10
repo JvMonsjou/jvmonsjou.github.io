@@ -12,7 +12,7 @@ e.g. you throw three 5's, one 4, two 2's, one 1, and one wurm.  You pick the 5's
 This continues until, either; 
     * you cannot throw anymore - you are out of dice to throw, or 
     * you are dead - the remaining dice are thrown to all face-values that have been chosen allready.
-    3. Make sure one of your die on the side is a wurm in order to collect a wurm-tile. 
+3. Make sure one of your die on the side is a wurm in order to collect a wurm-tile. 
 4. Collect your wurm-tile corresponding to total points of your throw (e.g. you have one wurm (5 points), three 5's (15 points), two 4's (8 points), and two 3's (6 points) = total 29 points). 
 When the tile with your points total is allready taken, AND it is on top of an opponents wurm-tile stack, you may take their tile. 
 Otherwise take the first available tile (e.g. tile 29 is taken, and not on top of an opponents stack, take the 28 tile).
